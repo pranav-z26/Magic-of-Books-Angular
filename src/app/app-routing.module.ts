@@ -4,6 +4,7 @@ import { DashboardAftLoginComponent } from './components/dashboard-aft-login/das
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { WishlistComponent } from './components/wishlist/wishlist.component';
 
 const routes: Routes = [
   {
@@ -25,6 +26,10 @@ const routes: Routes = [
   {
     path:"a-dashboard",
     component:DashboardAftLoginComponent
+  },
+  {
+    path:"wishlist",
+    component:WishlistComponent
   }
 
 ];

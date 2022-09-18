@@ -21,7 +21,8 @@ import { HttpClientModule} from '@angular/common/http';
 import {MatInputModule} from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DashboardAftLoginComponent } from './components/dashboard-aft-login/dashboard-aft-login.component';
-import { LoginBookComponent } from './components/login-book/login-book.component'; 
+import { LoginBookComponent } from './components/login-book/login-book.component';
+import { WishlistComponent } from './components/wishlist/wishlist.component'; 
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { LoginBookComponent } from './components/login-book/login-book.component
     HeaderLoginComponent,
     WoLoginBookComponent,
     DashboardAftLoginComponent,
-    LoginBookComponent
+    LoginBookComponent,
+    WishlistComponent
   ],
   imports: [
     BrowserModule,

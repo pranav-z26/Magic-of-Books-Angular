@@ -14,7 +14,7 @@
             <div>Language: {{book.language}}</div>
             <div><button mat-raised-button color="primary" id="rbtn"><a href={{book.link}}>Read</a></button></div>
             <hr>
-            <div><button mat-stroked-button color="primary" class="btns">Wishlist</button>
+            <div><button mat-stroked-button color="primary" class="btns" (click)="addtoWishlist(book.id)">Wishlist</button>
                 <button mat-stroked-button color="primary" class="btns">Completed</button>
             </div>
 

@@ -16,4 +16,7 @@ export class HeaderLoginComponent implements OnInit {
   logout(){
     this.router.navigate(['dashboard'])
   }
+  gotoWishlist(){
+    this.router.navigate(['wishlist']);
+  }
 }

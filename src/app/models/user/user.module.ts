@@ -5,6 +5,6 @@ export class UserM {
   phone = "";
   email = "";
   userType = "";
-  wishList = "";
+  wishList = [];
   completed = "";
 }
