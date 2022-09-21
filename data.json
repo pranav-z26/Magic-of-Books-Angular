@@ -1143,26 +1143,26 @@
   ],
   "Wishlist": [
     {
-      "id": 4,
-      "author": "Unknown",
-      "country": "Sumer and Akkadian Empire",
-      "imageLink": "images/the-epic-of-gilgamesh.jpg",
-      "language": "Akkadian",
-      "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
-      "pages": 160,
-      "title": "The Epic Of Gilgamesh",
-      "year": -1700
+      "id": 8,
+      "author": "Jane Austen",
+      "country": "United Kingdom",
+      "imageLink": "images/pride-and-prejudice.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
+      "pages": 226,
+      "title": "Pride and Prejudice",
+      "year": 1813
     },
     {
-      "id": 9,
-      "author": "Honoré de Balzac",
-      "country": "France",
-      "imageLink": "images/le-pere-goriot.jpg",
-      "language": "French",
-      "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n",
-      "pages": 443,
-      "title": "Le Père Goriot",
-      "year": 1835
+      "id": 80,
+      "author": "Tayeb Salih",
+      "country": "Sudan",
+      "imageLink": "images/season-of-migration-to-the-north.jpg",
+      "language": "Arabic",
+      "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n",
+      "pages": 139,
+      "title": "Season of Migration to the North",
+      "year": 1966
     }
   ]
 }

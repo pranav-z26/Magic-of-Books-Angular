@@ -7,13 +7,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./header-login.component.css']
 })
 export class HeaderLoginComponent implements OnInit {
-
   constructor(private router:Router) { }
 
   ngOnInit(): void {
+    
   }
-  
+
+
   logout(){
+    localStorage.clear();
     this.router.navigate(['dashboard'])
   }
   gotoWishlist(){

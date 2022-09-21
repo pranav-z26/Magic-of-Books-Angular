@@ -1,3 +1,10 @@
-.ht button {
+:root{
+    --blinkk: block
+}
+
+.ht .blink{
     margin-left: auto;
+}
+#lbtn{
+    margin-left: 15px;
 }

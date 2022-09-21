@@ -5,6 +5,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { WishlistComponent } from './components/wishlist/wishlist.component';
+import { CanActivateGuard } from './guards/can-activate.guard';
 
 const routes: Routes = [
   {
@@ -24,7 +25,7 @@ const routes: Routes = [
     component:RegisterComponent
   },
   {
-    path:"a-dashboard",
+    path:"a-dashboard", canActivate:[CanActivateGuard],
     component:DashboardAftLoginComponent
   },
   {

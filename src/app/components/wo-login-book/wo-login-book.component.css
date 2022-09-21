@@ -1,23 +1,37 @@
-mat-card{
-    width:20vw;
+mat-card {
+    width: 20vw;
     border: 1px solid blue;
     margin: 5px;
     text-align: center;
+    cursor: pointer;
 }
-.bookcontainer{
+
+.bookcontainer {
     display: flex;
     flex-wrap: wrap;
     margin: 10px 50px;
 }
-.desc{
+
+.desc {
     display: flex;
     flex-direction: column;
 }
 
-.desc a{
+.desc a {
     color: white;
     text-decoration: none;
 }
-#rbtn{
+
+#rbtn {
     margin-top: 5px;
+}
+
+mat-card:hover .image {
+    transform: scale(1.15);
+    z-index: 1;
+    /* overflow: hidden; */
+}
+
+mat-card:hover #rbtn {
+    background-color: chartreuse;
 }
