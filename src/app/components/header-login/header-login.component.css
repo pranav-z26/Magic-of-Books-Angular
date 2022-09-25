@@ -4,3 +4,19 @@
 .btn{
     margin-right: 5px;
 }
+#btw:hover{
+    color:#ff4081;
+    background-color: white;
+}
+#btc:hover{
+    color:rgb(38, 155, 38);
+    background-color: white;
+}
+#btl:hover{
+    /* color:rgb(38, 155, 38); */
+    background-color: grey
+}
+#mheader{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

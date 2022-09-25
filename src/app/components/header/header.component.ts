@@ -15,7 +15,15 @@ export class HeaderComponent implements OnInit {
     
   }
 
-  ngOnInit(): void { }
+  ngOnInit(): void { 
+    // let abh = "block";
+    // setInterval(() => {
+    //   // console.log('frm intevl')
+    //   document.getElementById('sn')?.setAttribute("display", `${abh}`);
+    //   abh = "none"
+    // }, 500)
+    // this.ngOnInit()
+  }
   
 
   login() {

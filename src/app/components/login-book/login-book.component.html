@@ -1,5 +1,5 @@
 <!-- <p>login-book works!</p> -->
-<h2>Welcome {{username}}</h2>
+<h2>Welcome <span id="userheader">{{username | titlecase}}</span></h2>
 <div class="bookcontainer">
     <mat-card class="card" *ngFor=" let book of bookarr">
         <div class="image">

@@ -1139,6 +1139,16 @@
       "wishList": "",
       "completed": "",
       "id": 3
+    },
+    {
+      "userName": "Pranav",
+      "password": "pranav",
+      "phone": "9854621305",
+      "email": "pranav@gmail.com",
+      "userType": "",
+      "wishList": [],
+      "completed": "",
+      "id": 4
     }
   ],
   "Wishlist": [
